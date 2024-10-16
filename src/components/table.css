@@ -1,0 +1,60 @@
+.table{
+    padding: 20px;
+    margin: 30px;
+    display: grid;
+    grid-template-columns: repeat(18,2fr);
+    background: hsla(244, 33%, 16%, 0.24);
+}
+
+.el{
+    background-color: green;
+    padding: 4px;
+     border: 1px solid rgba(12, 18, 59, 0.418);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.symbol{
+    font-size: 35px;
+}
+.number{
+    font-size: 25px;
+}
+.name{
+    font-size: 15px;
+}
+#he{
+    grid-column: 18/19;
+}
+#b{
+    grid-column: 13/14; 
+}
+#al{
+grid-column: 13/14;
+}
+#hf{
+    grid-column: 4/5;
+}
+#rf{
+    grid-column: 4/5;
+}
+#la,#ac{
+    grid-column: 4/5;
+}
+
+
+.solid{
+    background: hsla(0, 50%, 50%, 0.764);
+}
+.gas{
+    background: rgb(52, 51, 51);
+}
+.liquid{
+    background: rgba(23, 23, 90, 0.483);
+}
+
+.lanthanide{
+    margin-top: 20px;
+}
