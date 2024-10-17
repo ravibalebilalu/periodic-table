@@ -1,6 +1,6 @@
 import './table.css';
 
-function Table({ elementsData,elementPhase }) {
+function Table({ elementsData,elementPhase,elementCategory,elementPeriod }) {
      
     
     
@@ -23,7 +23,9 @@ function Table({ elementsData,elementPhase }) {
             <ul className="table">
                 {filteredElements.flat().map((el) => (
                     <div
-                        className={`el ${elementPhase?el.phase.toLowerCase(): '' } ${el.modified_category}`}
+                        className={`el ${elementPhase?el.phase.toLowerCase(): '' } ${elementCategory?el.modified_category:''}
+                        p${elementPeriod?el.period:''}
+                        `}
                          
                         id={el.symbol.toLowerCase()}
                         key={el.number}
@@ -31,6 +33,7 @@ function Table({ elementsData,elementPhase }) {
                         <p className='symbol'>{el.symbol}</p>
                         <p className='number'>{el.number}</p>
                         <p className="name"> {el.name} </p>
+                        <p>{el.period}</p>
                       
                          
                          

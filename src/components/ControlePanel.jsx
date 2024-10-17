@@ -1,11 +1,28 @@
-import React from 'react'
+ import './controlePanel.css'
 
-function ControlePanel({handlePhase}) {
+export  function Phase({handlePhase}) {
   return (
     <div>
-        <button onClick={handlePhase}>Phase</button>
+        <button className='btn phase-btn' onClick={handlePhase}>Phase</button>
     </div>
   )
 }
 
-export default ControlePanel
+export  function Category({handleCategory}) {
+  return (
+    <div>
+        <button className='btn category-btn' onClick={handleCategory}>Category</button>
+    </div>
+  )
+}
+
+export  function Period({handleElementPeriod}) {
+  return (
+    <div>
+        <button className='btn period-btn' onClick={handleElementPeriod}>Period</button>
+    </div>
+  )
+}
+
+
+ 

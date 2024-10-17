@@ -1,0 +1,18 @@
+.controle-panel{
+    display: flex;
+     
+    justify-content: start;
+    align-items: center;
+    background-color: gray;
+}
+.btn{
+    margin: 5px;
+    padding: 3px;
+    font-size: 30px;
+    background: linear-gradient(hsla(240, 44%, 55%, 0.757),hsla(60, 48%, 76%, 0.226));
+    border-radius: 5px;
+
+}
+.btn:hover{
+    background: linear-gradient(hsla(240, 44%, 85%, 0.757),hsla(60, 48%, 76%, 0.226));
+}

@@ -55,6 +55,56 @@ grid-column: 13/14;
     background: rgba(23, 23, 90, 0.483);
 }
 
-.lanthanide{
+ 
+ .nonmetal{
+background-color: yellow;
+color: black;
+ }
+ .noble_gas{
+background-color: green;
+ }
+ .alkali_metal{
+background-color: blueviolet;
+ }
+ .earth_metal{
+background-color: blue;
+ }
+ .metalloid{
+
+ }
+ .transition_metal{
+background: hwb(185 36% 37% / 0.775);
+
+ }
+ .lanthanide{
     margin-top: 20px;
-}
+    background-color: rgb(126, 77, 77);
+ }
+ .actinide{
+background-color: rgb(183, 130, 233);
+ }
+
+ .p1{
+    background: rgb(68, 79, 194);
+ }
+ .p2{
+    background: rgb(164, 163, 94);
+ }
+ .p3{
+    background: rgb(223, 115, 26);
+ }
+ .p4{
+    background: rgb(71, 66, 66);
+ }
+ .p5{
+    background: rgb(115, 46, 46);
+ }
+ .p6{
+    background: rgb(12, 168, 137);
+ }
+ .p7{
+    background: rgb(93, 129, 3);
+ }
+ .p8{
+    background: rgb(41, 28, 28);
+ }
