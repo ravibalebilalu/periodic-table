@@ -19,6 +19,7 @@ const App = () => {
     const [showCatIndex, setShowCatIndex] = useState(true);
     const [showPeriodIndex, setShowPeriodIndex] = useState(false);
     const [elementName,setElementName] = useState('')
+    const [showTable,setShowTable] = useState(true)
 
     const handlePhase = () => {
         setElementPhase(true);
@@ -47,15 +48,19 @@ const App = () => {
 
      const getElementName = (elementName)=>{
          setElementName(elementName)
+         setShowTable(false)
         
      }
+     const handleShowTable = ()=>setShowTable(true)
     return (
         <>
             <Element elementsData={elementsData}
                 elementName={elementName}
+                 handleShowTable={handleShowTable}
+                 showTable={showTable}
                 />
 
-           <div className="mainpage">
+           <div className={`mainpage ${!showTable? 'hidden':''}`}>
            <div className="controle-panel">
                 <Phase handlePhase={handlePhase} elementPhase={elementPhase} />
                 <Category

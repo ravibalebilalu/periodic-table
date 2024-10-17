@@ -1,12 +1,13 @@
 import React from 'react';
 
-function Element({ elementsData, elementName }) {
+function Element({ elementsData, elementName ,handleShowTable,showTable}) {
     const element = elementsData.elements.filter(
         (el) => el.name === elementName
     );
 
     return (
-        <div className="element">
+        <div className={`element ${showTable?'hidden':''}`}>
+            <button onClick={handleShowTable}>Table</button>
             {element.map((el) => (
                 <div key={el.number}>
                     <p>{el.name}</p>
