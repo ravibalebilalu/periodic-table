@@ -16,3 +16,12 @@
 .btn:hover{
     background: linear-gradient(hsla(240, 44%, 85%, 0.757),hsla(60, 48%, 76%, 0.226));
 }
+.category-btn{
+    color: green;
+}
+.phase-btn{
+    color: hwb(198 4% 91% / 0.534);
+}
+.period-btn{
+    color: blueviolet;
+}

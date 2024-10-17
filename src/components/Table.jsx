@@ -25,6 +25,7 @@ function Table({ elementsData,elementPhase,elementCategory,elementPeriod }) {
                     <div
                         className={`el ${elementPhase?el.phase.toLowerCase(): '' } ${elementCategory?el.modified_category:''}
                         p${elementPeriod?el.period:''}
+                        ${el.modified_category==='lanthanide'? 'lanthanide-class':''}
                         `}
                          
                         id={el.symbol.toLowerCase()}
@@ -33,7 +34,7 @@ function Table({ elementsData,elementPhase,elementCategory,elementPeriod }) {
                         <p className='symbol'>{el.symbol}</p>
                         <p className='number'>{el.number}</p>
                         <p className="name"> {el.name} </p>
-                        <p>{el.period}</p>
+                         
                       
                          
                          

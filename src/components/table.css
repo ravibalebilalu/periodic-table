@@ -17,10 +17,10 @@
 }
 
 .symbol{
-    font-size: 35px;
+    font-size: 30px;
 }
 .number{
-    font-size: 25px;
+    font-size: 18px;
 }
 .name{
     font-size: 15px;
@@ -43,7 +43,9 @@ grid-column: 13/14;
 #la,#ac{
     grid-column: 4/5;
 }
-
+.lanthanide-class{
+    margin-top: 20px;
+}
 
 .solid{
     background: hsla(0, 50%, 50%, 0.764);
