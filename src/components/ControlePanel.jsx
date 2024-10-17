@@ -1,25 +1,27 @@
  import './controlePanel.css'
 
-export  function Phase({handlePhase}) {
+export  function Phase({handlePhase,elementPhase,elementCategory}) {
   return (
     <div>
-        <button className='btn phase-btn' onClick={handlePhase}>Phase</button>
+        <button className={`btn phase-btn ${elementPhase?'active': ''}`} onClick={handlePhase}>Phase</button>
+         
+
     </div>
   )
 }
 
-export  function Category({handleCategory}) {
+export  function Category({handleCategory,elementCategory}) {
   return (
     <div>
-        <button className='btn category-btn' onClick={handleCategory}>Category</button>
+        <button className={`btn category-btn ${elementCategory?'active':''}`} onClick={handleCategory}>Category</button>
     </div>
   )
 }
 
-export  function Period({handleElementPeriod}) {
+export  function Period({handleElementPeriod,elementPeriod}) {
   return (
     <div>
-        <button className='btn period-btn' onClick={handleElementPeriod}>Period</button>
+        <button className= {`btn period-btn ${elementPeriod? 'active': ''}`} onClick={handleElementPeriod}>Period</button>
     </div>
   )
 }

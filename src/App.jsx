@@ -42,7 +42,8 @@ const App = () => {
         <>
 
 <div className="controle-panel">
-                <Phase handlePhase={handlePhase} />
+                <Phase handlePhase={handlePhase}
+                        elementPhase={elementPhase} />
                 <Category
                     elementCategory={elementCategory}
                     handleCategory={handleCategory}

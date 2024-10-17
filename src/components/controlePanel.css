@@ -25,3 +25,10 @@
 .period-btn{
     color: blueviolet;
 }
+.active{
+      font-weight: bold;
+      border: none;
+      background:  gray;
+      
+      
+}
