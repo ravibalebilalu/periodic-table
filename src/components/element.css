@@ -1,0 +1,33 @@
+.firstrow{
+    display: flex;
+    justify-content: center;
+}
+
+.firstdiv p{
+    font-size: 30px;
+}
+.firstdiv,.seconddiv{
+    display: flex;
+    flex-direction: column;
+}
+
+.elname{
+    font-size: 100px !important;
+    color: blueviolet;
+    text-align: center;
+}
+.appearance{
+    color: gray;
+}
+.atomic_mass{
+    color: brown;
+}
+.boil{
+    color: green;
+}
+.category{
+    color: chocolate;
+}
+.density{
+    color: blue;
+}
