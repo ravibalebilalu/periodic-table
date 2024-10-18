@@ -1,20 +1,86 @@
-.firstrow{
-    display: flex;
-    justify-content: center;
+
+.table-btn{
+    position: fixed;
+    right: 30px;
+    top: 20px;
+    font-size: 30px;
+    padding: 5px 10px;
+    background-color: gray;
+    border-radius: 10px;
+}
+.table-btn:hover{
+    background: hsl(0, 1%, 17%);
+    color: white;
 }
 
-.firstdiv p{
+.firstrow{
+    display: flex;
+    justify-content: space-evenly;
+     
+}
+
+.firstdiv p,.seconddiv p,.thirddiv p{
     font-size: 30px;
 }
 .firstdiv,.seconddiv{
     display: flex;
     flex-direction: column;
+    
 }
+.thirddiv  {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    background: linear-gradient(rgb(13, 12, 12),rgb(13, 12, 12));
+    padding: 3px;
+}
+ .fourthdiv{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+ }
+ .fifthdiv{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    background: linear-gradient(rgb(13, 12, 12),rgb(13, 12, 12));
+ }
+ .fifthdiv p{
+    font-size: 30px;
+     padding: 3px;
+ }
+ .sixthdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    background: linear-gradient(rgb(0, 3, 20),rgb(34, 39, 57));
+ }
 
+ .seventhdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     
+    background:linear-gradient(rgb(7, 7, 7),rgb(12, 6, 6),black);
+ }
+div a{
+    text-decoration: none;
+}
 .elname{
     font-size: 100px !important;
     color: blueviolet;
     text-align: center;
+}
+.elsymbol{
+    font-size: 70px;
+    text-align: center;
+     height: auto;
+     width: auto;
+     background:linear-gradient(rgb(0, 0, 0),hsla(0, 3%, 24%, 0.725));
+     margin-bottom: 30px;
+     
 }
 .appearance{
     color: gray;
@@ -31,3 +97,110 @@
 .density{
     color: blue;
 }
+.discovered_by{
+    color: aquamarine;
+}
+
+ .melt {
+color: cadetblue;
+ }
+ .molar_heat {
+color: blanchedalmond;
+ }
+ .named_by {
+color: burlywood;
+ }
+ .number_ {
+color: red;
+ }
+ .period {
+color: green;
+ }
+
+ .group{
+color: rgba(17, 161, 180, 0.686);
+ }
+
+ .phase{
+    color: rgb(180, 71, 71);
+ }
+
+ .source{
+    color: white;
+ }
+ .bohr_model_image{
+    height: 300px;
+    box-shadow: 50px 50px 300px rgb(95, 93, 93),  -50px -50px 300px rgb(102, 99, 99);
+    margin-top: 50px;
+ }
+ .summary{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 34px;
+    color: rgb(149, 55, 237);
+ }
+
+    .xpos {
+        color: #346721;
+    }
+    .ypos {
+        color: #0d4351;
+    }
+    .wxpos {
+        color: #ed7118;
+    }
+    .wypos {
+        color: #7d1449;
+    }
+
+    .con-title{
+text-align: center;
+font-size: 30px;
+    }
+    .config{
+        font-size: 45px;
+        background: linear-gradient(rgb(28, 28, 133),rgb(0, 0, 33));
+        padding: 5px;
+        margin: 4px;
+    }
+
+    .con-title{
+        color: green;
+        padding: 5px;
+    }
+    .electron_configuration_semantic{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .ecs{
+        font-size: 60px;
+        color: bisque;
+    }
+    .ecs-title{
+        font-size: 30px;
+        color: rgb(236, 153, 9);
+    }
+
+.seventhdiv p{
+    font-size: 30px;
+}
+      .shells  {
+        color:green;
+        margin-top: 40px;
+      }
+      .electron_affinity  {
+        color:red;
+      }
+      .electronegativity_pauling  {
+        color:blue;
+      }
+      .ionization_energies  {
+        color:white;
+      }
+      .block  {
+        color:magenta;
+      }
